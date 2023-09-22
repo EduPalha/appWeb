@@ -1,4 +1,4 @@
-// toda função javascript na teoria retorna, nem que seja, um undefined
+// toda função javascript na teoria retorna, nem que seja, um undefined. Um função é sempre um tipo.
 // Função em JS é First-Class Object (Citizens)
 // High-order function
 
