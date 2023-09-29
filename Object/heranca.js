@@ -103,3 +103,30 @@ Array.prototype.first = function () {
 
 console.log([1, 2, 3].first())
 console.log(['a', 'b', 'c'].first())
+
+
+
+
+
+
+
+
+
+function Aula(nome, videoId) {
+    this.nome = nome
+    this.videoId = videoId
+}
+
+const aula1 = new Aula('Bem Vindo', 123)
+console.log(aula1)
+
+//simulando o new
+function novo(f, ...params) {
+    const obj = {} //criei objeto novo
+    obj.__proto__ = f.prototype //associei o prototipo desse objeto ao protipo do 'f'
+    f.apply(obj, params) //vai executar a função 'f' passando o objeto e os parâmetros
+    return obj 
+}
+
+const aula2 = novo(Aula, 'Bem Vindo', 123)
+console.log(aula2)

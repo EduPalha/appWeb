@@ -1,3 +1,4 @@
+//linguagem fracamente tipada e muito flexível
 //const e let diferem de var e function porque não são global, são armazenadas de forma diferente na memória
 //dentro do node o global equivale ao window do browser
 //this igual ao module.exports do node que será exportado para um módulo
