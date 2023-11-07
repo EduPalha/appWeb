@@ -1,0 +1,11 @@
+LINUX – COMO ENCERRAR PROCESSOS EXECUTANDO EM UMA PORTA ESPECÍFICA
+
+Para listar os processos que estão conectados à determinada porta, 
+pode-se utilzar um destes comandos:
+
+$ lsof -i tcp:3005
+$ lsof -w -n -i tcp:3005
+$ fuser -n tcp 3005
+$ netstat -anp | grep :3005
+
+$ kill -9 '12345'
