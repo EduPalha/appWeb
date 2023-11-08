@@ -1,4 +1,4 @@
-const moduloServidor = require('../../moduloServidor')
+const moduloServidor = require('../../../moduloServidor')
 console.log(moduloServidor.bomDia)
 
 const saudacao = require('saudacao')
