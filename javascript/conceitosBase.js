@@ -1,8 +1,11 @@
-//linguagem fracamente tipada e muito flexível
-//const e let diferem de var e function porque não são global, são armazenadas de forma diferente na memória
-//dentro do node o global equivale ao window do browser
-//this igual ao module.exports do node que será exportado para um módulo
-//dentro de node cada ARQUIVO é um MÓDULO
+// linguagem fracamente tipada e muito flexível
+// var tem escopo de função ou global
+// let tem, também, escopo de bloco
+// const e let diferem de var e function porque não são global, são armazenadas de forma diferente na memória
+// Template String (delimitar string com as crases e colocar as variáveis a partir de dólar e chaves)
+// dentro do node o global equivale ao window do browser
+// this igual ao module.exports do node que será exportado para um módulo
+// dentro de node cada ARQUIVO é um MÓDULO
 
 const p0 = {
     nome: 'Ana',

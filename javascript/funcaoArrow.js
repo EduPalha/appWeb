@@ -1,13 +1,7 @@
-let dobro1 = function(a) {
-    return 2 * a
-}
-
+// os três casos abaixo fazem a mesma coisa. Um arrow function é sempre uma função anônima (sem nome).
+let dobro1 = function(a) {return 2 * a}
 let dobro2 = (a) => { return 2 * a }
-
 let dobro3 = a => 2 * a
-
-// os três casos acima fazem a mesma coisa. Um arrow function é sempre uma função anônima (sem nome).
-
 
 
 let comparaComThis = function (param) {

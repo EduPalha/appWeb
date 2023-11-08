@@ -1,3 +1,8 @@
+// Destructuring (tirar de uma estrutura algo(objeto, array, string))
+
+const [x, , y] = [1, 2, 3]
+console.log(x, y)
+
 const pessoa = {
     nome: 'Isa',
     idade: 25,
